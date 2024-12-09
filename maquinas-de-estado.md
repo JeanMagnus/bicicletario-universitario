@@ -93,9 +93,4 @@ O sistema embarcado na bicicleta é responsável por monitorar continuamente sua
 
 ---
 
-## **Conclusão**
-
-A máquina de estados descrita garante que o sistema embarcado monitore continuamente a operação da bicicleta, reagindo em tempo real a violações de perímetro ou outros eventos críticos. Esse ciclo automático, que envolve monitoramento, análise e alerta, assegura a segurança da bicicleta, a conformidade com as regras de uso e a tranquilidade do operador.
-
-Se precisar de mais detalhes ou quiser ajustar algo, é só avisar! 🚲
 

@@ -70,5 +70,3 @@ A seguir, detalhamos os principais casos de uso do sistema do **Bicicletário Un
 - **Pós-condição:** Relatórios detalhados são gerados e disponíveis para consulta.
 
 ---
-
-Esses casos de uso demonstram como o sistema atende às necessidades dos usuários, promove sustentabilidade e mantém a segurança e eficiência operacionais. 😊
