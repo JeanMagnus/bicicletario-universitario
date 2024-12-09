@@ -2,8 +2,13 @@
 
 ## Sumário de Desenvolvimento 📚
 
-1. [Casos de Uso do Sistema](#casos-de-uso-do-sistema)
-2. [Máquinas de Estado](#maquinas-de-estado)
+1. [Casos de Uso do Sistema](/casos-uso.md)
+2. [Máquinas de Estado](/maquinas-de-estado.md)
+3. [Descrição do projeto](#descrição-do-projeto)
+4. [Principais funcionalidades](#principais-funcionalidades)
+5. [Arquitetura do sistema](#arquitetura-do-sistema)
+6. [Impacto esperado](#impacto-esperado)
+7. [Equipe](#equipe)
 
 
 ## **Descrição do Projeto**
