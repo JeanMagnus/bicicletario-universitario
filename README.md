@@ -1,11 +1,18 @@
-# Bicicletário Universitário 🚴‍♂️🌱
+# Bicicletário Universitário 🚴‍♂️
+
+## Sumário de Desenvolvimento 📚
+
+1. [Casos de Uso do Sistema](#casos-de-uso-do-sistema)
+2. [Máquinas de Estado](#maquinas-de-estado)
+
 
 ## **Descrição do Projeto**
 O **Bicicletário Universitário** é uma solução inovadora para os desafios de mobilidade no campus da Universidade Federal do Rio Grande do Norte (UFRN). O projeto combina tecnologia, sustentabilidade e bem-estar, oferecendo uma alternativa eficiente e acessível de transporte para a comunidade acadêmica.
 
 A iniciativa busca mitigar problemas como superlotação dos circulares, atrasos frequentes e emissões de CO₂, ao mesmo tempo que promove a saúde física e mental dos usuários. Alinhado aos Objetivos de Desenvolvimento Sustentável (ODS), o projeto integra bicicletas equipadas com sistemas embarcados, um suporte físico inteligente e um aplicativo para gerenciar todas as funcionalidades.
 
----
+
+
 
 ## **Principais Funcionalidades**
 - **Monitoramento em Tempo Real**:  
@@ -23,7 +30,7 @@ A iniciativa busca mitigar problemas como superlotação dos circulares, atrasos
 - **Saúde e Bem-Estar**:  
   Sensores nas bicicletas coletam dados de saúde, como frequência cardíaca e tempo de uso, permitindo análises preventivas e suporte emergencial.
 
----
+
 
 ## **Arquitetura do Sistema**
 1. **Sistema Embarcado no Suporte**:
@@ -41,7 +48,6 @@ A iniciativa busca mitigar problemas como superlotação dos circulares, atrasos
    - Informações em tempo real sobre disponibilidade e localização.
    - Configurações personalizáveis de notificações e rotas.
 
----
 
 ## **Impacto Esperado**
 O **Bicicletário Universitário** visa transformar a mobilidade no campus, oferecendo:
@@ -49,7 +55,6 @@ O **Bicicletário Universitário** visa transformar a mobilidade no campus, ofer
 - **Qualidade de Vida Melhorada**: Incentivo à atividade física e redução do estresse.
 - **Sustentabilidade a Longo Prazo**: Planejamento de infraestrutura verde e expansão do modelo para outros locais.
 
----
 
 ## **Equipe**
 Desenvolvido pelos estudantes da UFRN:
