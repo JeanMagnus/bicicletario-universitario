@@ -20,7 +20,7 @@ Ao selecionar uma bicicleta disponível, o usuário será redirecionado para uma
 ![Tela 3](/images/tela-3.png)
 
 ### **4. Localização, segurança e monitoramento:** 
-O usuário poderá consultar sua localização, esta que também será usada para fazer o monitoramento da bicicleta, para realizar a segurança necessária e controle do bicicletário. Caso o perimetro pre definido como seguro seja ultrapassado, um alarme soará na própria bicleta.
+Esta tela será usada para fazer o monitoramento da bicicleta, para realizar a segurança necessária e controle do bicicletário. Caso o perimetro pre definido como seguro seja ultrapassado, um alarme soará na própria bicleta.
 
 ![Tela 3](/images/tela-4.png)
 
