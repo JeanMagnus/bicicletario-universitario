@@ -14,6 +14,9 @@
 10. [Impacto esperado](#impacto-esperado)
 11. [Equipe](#equipe)
 
+## **Link para documentos do projeto**
+- [Apresentação de Sistemas Embarcados](/content/Bicicletario-Universitario-Projeto-de-Sistemas-Embarcados.pdf)
+- [Artigo escrito](/content/Bicicletrio_Universitrio__Uma_Soluo_Inovadora_para_os_Desafios_de_Mobilidade%20(1).pdf) [EM ANDAMENTO]
 
 ## **Descrição do Projeto**
 O **Bicicletário Universitário** é uma solução inovadora para os desafios de mobilidade no campus da Universidade Federal do Rio Grande do Norte (UFRN). O projeto combina tecnologia, sustentabilidade e bem-estar, oferecendo uma alternativa eficiente e acessível de transporte para a comunidade acadêmica.
