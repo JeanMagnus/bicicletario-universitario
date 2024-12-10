@@ -2,7 +2,13 @@
 
 A seguir, detalhamos os principais casos de uso do sistema do **Bicicletário Universitário**, cobrindo interações entre os usuários, o aplicativo, e o hardware embarcado.
 
+Segue abaixo o diagrama de casos de uso:
+
+![Diagrama de casos de uso](/images/casos-uso.png)
+
 ---
+
+
 
 ### **1. Desbloquear Bicicleta**
 - **Ator principal:** Usuário do aplicativo  
@@ -39,7 +45,45 @@ A seguir, detalhamos os principais casos de uso do sistema do **Bicicletário Un
 
 ---
 
-### **2. Monitorar Localização e Dados da Bicicleta**
+### **4. Gerar Relatórios de Uso**
+- **Ator principal:** Administrador do sistema  
+- **Pré-condição:** Dados de uso acumulados no sistema.  
+- **Fluxo principal:**
+  1. O administrador acessa a interface de gerenciamento e solicita relatórios.
+  2. O sistema compila dados sobre uso das bicicletas, trajetos mais frequentes, e métricas de impacto ambiental.
+  3. Relatórios são gerados em formatos visuais ou exportáveis.  
+- **Pós-condição:** Relatórios detalhados são gerados e disponíveis para consulta.
+
+---
+
+### **5. Visualizar Alertas de Segurança**
+- **Ator Principal:** Administrador do Sistema  
+- **Pré-condição:** O sistema deve ter emitido alertas de segurança (ex.: bicicleta fora do perímetro).  
+- **Fluxo Principal:**
+  1. O administrador acessa a interface de gerenciamento.  
+  2. O sistema exibe uma lista de alertas recentes, incluindo detalhes como horário, localização da bicicleta e tipo de alerta (ex.: perímetro excedido, movimentação suspeita).  
+  3. O administrador seleciona um alerta específico para obter mais informações.  
+  . O sistema fornece informações detalhadas, incluindo o histórico de localização e os dados dos sensores relacionados ao evento.  
+  5. O administrador toma ações corretivas, como enviar uma notificação ao usuário ou marcar o alerta como resolvido.  
+
+- **Pós-condição:** O administrador visualiza os alertas de segurança e pode gerenciar ou resolver as ocorrências.
+
+---
+
+### **6. Monitorar Localização em Tempo Real**
+- **Ator Principal:** Administrador do Sistema  
+- **Pré-condição:** As bicicletas devem estar conectadas à rede e transmitindo dados de GPS.  
+- **Fluxo Principal:**
+  1. O administrador acessa a interface de gerenciamento e seleciona a opção de monitoramento.  
+  2. O sistema exibe um mapa interativo mostrando a localização em tempo real de todas as bicicletas.  
+  3. O administrador clica em uma bicicleta específica para visualizar informações adicionais, como status (em uso, disponível), trajetória recente e velocidade.  
+  4. Caso uma bicicleta esteja fora do perímetro permitido, o sistema destaca a localização em vermelho e exibe uma notificação.  
+  5. O administrador pode filtrar as bicicletas por status, localização ou horário de atividade para análises específicas.  
+
+- **Pós-condição:** O administrador monitora a localização em tempo real de todas as bicicletas e toma ações com base nos dados apresentados.
+
+---
+### **7. Monitorar Localização e Dados da Bicicleta**
 - **Ator principal:** Central do sistema  
 - **Pré-condição:** A bicicleta deve estar em uso e conectada à rede.  
 - **Fluxo principal:**
@@ -50,23 +94,12 @@ A seguir, detalhamos os principais casos de uso do sistema do **Bicicletário Un
 
 ---
 
-### **3. Alerta de Perímetro Excedido**
+### **8. Alerta de Perímetro Excedido**
 - **Ator principal:** Sistema anti-furto  
 - **Pré-condição:** A bicicleta está sendo monitorada em tempo real.  
 - **Fluxo principal:**
   1. O sistema detecta que a bicicleta ultrapassou os limites definidos no mapa (dependências da UFRN).
   2. Uma notificação é enviada ao aplicativo do usuário e à central do sistema. 
 - **Pós-condição:** A segurança da bicicleta é garantida, e o usuário é notificado.
-
----
-
-### **4. Gerar Relatórios de Uso**
-- **Ator principal:** Administrador do sistema  
-- **Pré-condição:** Dados de uso acumulados no sistema.  
-- **Fluxo principal:**
-  1. O administrador acessa a interface de gerenciamento e solicita relatórios.
-  2. O sistema compila dados sobre uso das bicicletas, trajetos mais frequentes, e métricas de impacto ambiental.
-  3. Relatórios são gerados em formatos visuais ou exportáveis.  
-- **Pós-condição:** Relatórios detalhados são gerados e disponíveis para consulta.
 
 ---
