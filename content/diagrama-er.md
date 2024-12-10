@@ -23,7 +23,7 @@ Para armanezar os dados utilizados no aplicativo será necessário fazer o armaz
   5. data_hora_fim (data/hora)
   6. status (texto, ex: ativo, concluído)
  
----
+ ---
  
 ### **2. Definindo Relacionamento**
 - **Aluno <-> Aluguel**
@@ -33,4 +33,13 @@ Para armanezar os dados utilizados no aplicativo será necessário fazer o armaz
   1. Uma bicicleta pode ser usada em vários alugueis ao longo do tempo.
   2. Um aluguel refere-se a uma única bicicleta.(Relacionamento 1:N).
  
-Após fazer estas definição para fazer a modelagem
+  ---
+
+ 
+Após fazer estas definições, foi realizada a contrução do diagrama Entidade-Relacionamento de fato.
+
+Segue abaixo diagrama mencionado:
+
+![Diagrama Entidade-Relacionamento](/images/diagrama-entidade-relacionamento.png)
+
+Após a montagem do diagrama, é possível pensar em **Possíveis Funcionalidades e Telas no Banco de Dados** como: Login, Localização da Bicicleta, Desbloqueio via QR Code e Perfil do Aluno. Com isso podemos realizar os próximos passo para ver se o modelo ER atende todas as funções que devem ser implementadas no sistema, afim de verificar se o mesmo atende todos os requisitos definidos.
