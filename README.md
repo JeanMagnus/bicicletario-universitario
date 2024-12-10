@@ -2,12 +2,12 @@
 
 ## Sumário de Desenvolvimento 📚
 
-1. [Requisitos funcionais e não funcionais](/requisitos.md)
-2. [Casos de uso do sistema](/casos-uso.md)
-3. [Máquinas de estado](/maquinas-de-estado.md)
-4. [Diagrama de blocos](/diagrama-blocos.md)
-5. [Protótipo do aplicativo](/telas-app.md)
-6. [Modelo do suporte](/modelo-suporte.md)
+1. [Requisitos funcionais e não funcionais](/content/requisitos.md)
+2. [Casos de uso do sistema](/content/casos-uso.md)
+3. [Máquinas de estado](/content/maquinas-de-estado.md)
+4. [Diagrama de blocos](/content/diagrama-blocos.md)
+5. [Protótipo do aplicativo](/content/telas-app.md)
+6. [Modelo do suporte](/content/modelo-suporte.md)
 7. [Descrição do projeto](#descrição-do-projeto)
 8. [Principais funcionalidades](#principais-funcionalidades)
 9. [Arquitetura do sistema](#arquitetura-do-sistema)
