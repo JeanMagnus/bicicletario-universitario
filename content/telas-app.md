@@ -12,7 +12,7 @@ Usando a API solicitada junto a SINFO é possível fazer a autenticação de usu
 ### **2. Lista de bicicletas e disponibilidade:** 
 Uma vez que o usuário entra no aplicativo, ele pode ver as lista de bicicletas e sua disponibilidade no bicicletário.
 
-![Tela 2](/images/tela-2.png)
+![Tela 2](/images/tela-2-1.png)
 
 ### **3. Desbloqueio através do QR code:** 
 Ao selecionar uma bicicleta disponível, o usuário será redirecionado para uma tela que faz a leitura do QR code presente no suporte que a bicicleta se encontra. Após realizar esse passo o suporte será destravado e o usuário poderá fazer uso daquela bicicleta.
