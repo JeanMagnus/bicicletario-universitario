@@ -6,17 +6,18 @@
 2. [Casos de uso do sistema](/content/casos-uso.md)
 3. [Máquinas de estado](/content/maquinas-de-estado.md)
 4. [Diagrama de blocos](/content/diagrama-blocos.md)
-5. [Protótipo do aplicativo](/content/telas-app.md)
-6. [Modelo do suporte](/content/modelo-suporte.md)
-7. [Descrição do projeto](#descrição-do-projeto)
-8. [Principais funcionalidades](#principais-funcionalidades)
-9. [Arquitetura do sistema](#arquitetura-do-sistema)
-10. [Impacto esperado](#impacto-esperado)
-11. [Equipe](#equipe)
+5. [Diagrama Entidade-Relacionamento](/content/diagrama-ER.md)
+6. [Protótipo do aplicativo](/content/telas-app.md)
+7. [Modelo do suporte](/content/modelo-suporte.md)
+8. [Descrição do projeto](#descrição-do-projeto)
+9. [Principais funcionalidades](#principais-funcionalidades)
+10. [Arquitetura do sistema](#arquitetura-do-sistema)
+11. [Impacto esperado](#impacto-esperado)
+12. [Equipe](#equipe)
 
 ## **Documentos do projeto**
-- [Apresentação de Sistemas Embarcados](/content/Bicicletario-Universitario-Projeto-de-Sistemas-Embarcados.pdf)
-- [Artigo escrito](/content/Bicicletrio_Universitrio__Uma_Soluo_Inovadora_para_os_Desafios_de_Mobilidade%20(1).pdf) [EM ANDAMENTO]
+- [Apresentação de Sistemas Embarcados](/docs/Bicicletario-Universitario-Projeto-de-Sistemas-Embarcados.pdf)
+- [Artigo escrito](/docs/Bicicletrio_Universitrio__Uma_Soluo_Inovadora_para_os_Desafios_de_Mobilidade%20(1).pdf) [EM ANDAMENTO]
 
 ## **Descrição do Projeto**
 O **Bicicletário Universitário** é uma solução inovadora para os desafios de mobilidade no campus da Universidade Federal do Rio Grande do Norte (UFRN). O projeto combina tecnologia, sustentabilidade e bem-estar, oferecendo uma alternativa eficiente e acessível de transporte para a comunidade acadêmica.
