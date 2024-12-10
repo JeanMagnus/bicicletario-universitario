@@ -14,7 +14,7 @@
 10. [Impacto esperado](#impacto-esperado)
 11. [Equipe](#equipe)
 
-## **Link para documentos do projeto**
+## **Documentos do projeto**
 - [Apresentação de Sistemas Embarcados](/content/Bicicletario-Universitario-Projeto-de-Sistemas-Embarcados.pdf)
 - [Artigo escrito](/content/Bicicletrio_Universitrio__Uma_Soluo_Inovadora_para_os_Desafios_de_Mobilidade%20(1).pdf) [EM ANDAMENTO]
 
