@@ -2,13 +2,15 @@
 
 ## Sumário de Desenvolvimento 📚
 
-1. [Casos de Uso do Sistema](/casos-uso.md)
-2. [Máquinas de Estado](/maquinas-de-estado.md)
-3. [Descrição do projeto](#descrição-do-projeto)
-4. [Principais funcionalidades](#principais-funcionalidades)
-5. [Arquitetura do sistema](#arquitetura-do-sistema)
-6. [Impacto esperado](#impacto-esperado)
-7. [Equipe](#equipe)
+1. [Requisitos funcionais e não funcionais](/requisitos.md)
+2. [Casos de uso do sistema](/casos-uso.md)
+3. [Máquinas de estado](/maquinas-de-estado.md)
+4. [Diagrama de blocos](/diagrama-blocos.md)
+5. [Descrição do projeto](#descrição-do-projeto)
+6. [Principais funcionalidades](#principais-funcionalidades)
+7. [Arquitetura do sistema](#arquitetura-do-sistema)
+8. [Impacto esperado](#impacto-esperado)
+9. [Equipe](#equipe)
 
 
 ## **Descrição do Projeto**
