@@ -24,6 +24,6 @@ O usuário poderá consultar sua localização, esta que também será usada par
 
 ![Tela 3](/images/tela-4.png)
 
-### **5. Lista de bicicletas e disponibilidade:** 
+### **5. Dados pesoais:** 
 Também será possível fazer consultas dos dados pessoais que estão atrelados ao usuário.
 ![Tela 5](/images/tela-5.png)
