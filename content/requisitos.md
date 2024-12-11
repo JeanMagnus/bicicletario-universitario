@@ -8,11 +8,11 @@ O sistema de Bicicletário Universitário foi desenvolvido para atender as neces
 
 1. **Monitoramento e Controle do Suporte Físico**
    - O sistema será capaz de se comunicar via aplicativo para travar ou destravar a trava eletrônica, controlando o acesso às bicicletas.
-   - Sensores de distância serão utilizados para verificar a presença ou ausência da bicicleta no suporte e ativar a trava eletrônica automaticamente.
+   - O sistena contará com sensores de distância que serão utilizados para verificar a presença ou ausência da bicicleta no suporte e ativar a trava eletrônica automaticamente.
 
 2. **Monitoramento em Tempo Real**
    - O sistema utilizará acelerômetro e GPS para rastrear dados de uso e localização das bicicletas em tempo real.
-   - Alertas serão enviados automaticamente para a central caso a bicicleta ultrapasse os limites estabelecidos no mapa, ativando o sistema anti-furto.
+   - O sistema será capaz de enviar alertas automaticamente para a central caso a bicicleta ultrapasse os limites estabelecidos no mapa, ativando o sistema anti-furto.
 
 3. **Aplicativo para Integração**
    - O aplicativo permitirá ao usuário solicitar o acesso às bicicletas e monitorar informações sobre status e localização em tempo real.
