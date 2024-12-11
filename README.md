@@ -6,7 +6,7 @@
 2. [Casos de uso do sistema](/content/casos-uso.md)
 3. [Máquinas de estado](/content/maquinas-de-estado.md)
 4. [Diagrama de blocos](/content/diagrama-blocos.md)
-5. [Diagrama Entidade-Relacionamento](/content/diagrama-ER.md)
+5. [Diagrama Entidade-Relacionamento](/content/diagrama-er.md)
 6. [Protótipo do aplicativo](/content/telas-app.md)
 7. [Modelo do suporte](/content/modelo-suporte.md)
 8. [Descrição do projeto](#descrição-do-projeto)
