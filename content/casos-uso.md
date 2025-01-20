@@ -63,7 +63,7 @@ Segue abaixo o diagrama de casos de uso:
   1. O administrador acessa a interface de gerenciamento.  
   2. O sistema exibe uma lista de alertas recentes, incluindo detalhes como horário, localização da bicicleta e tipo de alerta (ex.: perímetro excedido, movimentação suspeita).  
   3. O administrador seleciona um alerta específico para obter mais informações.  
-  . O sistema fornece informações detalhadas, incluindo o histórico de localização e os dados dos sensores relacionados ao evento.  
+  4. O sistema fornece informações detalhadas, incluindo o histórico de localização e os dados dos sensores relacionados ao evento.  
   5. O administrador toma ações corretivas, como enviar uma notificação ao usuário ou marcar o alerta como resolvido.  
 
 - **Pós-condição:** O administrador visualiza os alertas de segurança e pode gerenciar ou resolver as ocorrências.
