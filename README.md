@@ -2,18 +2,19 @@
 
 ## Sumário de Desenvolvimento 📚
 
-1. [Requisitos funcionais e não funcionais](/content/requisitos.md)
-2. [Casos de uso do sistema](/content/casos-uso.md)
-3. [Máquinas de estado](/content/maquinas-de-estado.md)
-4. [Diagrama de blocos](/content/diagrama-blocos.md)
-5. [Diagrama Entidade-Relacionamento](/content/diagrama-er.md)
-6. [Protótipo do aplicativo](/content/telas-app.md)
-7. [Modelo do suporte](/content/modelo-suporte.md)
-8. [Descrição do projeto](#descrição-do-projeto)
-9. [Principais funcionalidades](#principais-funcionalidades)
-10. [Arquitetura do sistema](#arquitetura-do-sistema)
-11. [Impacto esperado](#impacto-esperado)
-12. [Equipe](#equipe)
+1. [Códigos desenvolvido](content/detalhes-codigos.md)
+2. [Requisitos funcionais e não funcionais](/content/requisitos.md)
+3. [Casos de uso do sistema](/content/casos-uso.md)
+4. [Máquinas de estado](/content/maquinas-de-estado.md)
+5. [Diagrama de blocos](/content/diagrama-blocos.md)
+6. [Diagrama Entidade-Relacionamento](/content/diagrama-er.md)
+7. [Protótipo do aplicativo](/content/telas-app.md)
+8. [Modelo do suporte](/content/modelo-suporte.md)
+9. [Descrição do projeto](#descrição-do-projeto)
+10. [Principais funcionalidades](#principais-funcionalidades)
+11. [Arquitetura do sistema](#arquitetura-do-sistema)
+12. [Impacto esperado](#impacto-esperado)
+13. [Equipe](#equipe)
 
 ## **Documentos do projeto**
 - [Apresentação de Sistemas Embarcados](/docs/Bicicletario-Universitario-Projeto-de-Sistemas-Embarcados.pdf)
