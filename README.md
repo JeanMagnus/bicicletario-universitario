@@ -2,7 +2,7 @@
 
 ## Sumário de Desenvolvimento 📚
 
-1. [Códigos desenvolvido](content/detalhes-codigos.md)
+1. [Códigos desenvolvidos](content/detalhes-codigos.md)
 2. [Requisitos funcionais e não funcionais](/content/requisitos.md)
 3. [Casos de uso do sistema](/content/casos-uso.md)
 4. [Máquinas de estado](/content/maquinas-de-estado.md)
