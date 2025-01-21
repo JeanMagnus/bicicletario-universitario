@@ -41,10 +41,6 @@ A iniciativa busca mitigar problemas como superlotação dos circulares, atrasos
 - **Inclusão e Acessibilidade**:  
   Bicicletas são disponibilizadas gratuitamente, promovendo igualdade de oportunidades e integração social.
 
-- **Saúde e Bem-Estar**:  
-  Sensores nas bicicletas coletam dados de saúde, como frequência cardíaca e tempo de uso, permitindo análises preventivas e suporte emergencial.
-
-
 
 ## **Arquitetura do Sistema**
 1. **Sistema Embarcado no Suporte**:
