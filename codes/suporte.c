@@ -263,7 +263,7 @@ void loop() {
     const int leiturasNecessarias = 2;  // Quantidade de leituras consistentes
 
     unsigned long tempoInicio = millis();
-    const unsigned long timeout = 30000;  // Timeout de 30 segundos
+    const unsigned long timeout = 60000;  // Timeout de 30 segundos
 
     while (millis() - tempoInicio < timeout) {
         float distancia = medirDistancia();
@@ -283,7 +283,7 @@ void loop() {
         if (distancia >= 3.0) {
             Serial.println("Bicicleta não detectada no suporte. Ajuste a posição.");
             emitirBip(1, 500);
-        } else if (obstrucao) {
+        } else /*if (obstrucao)*/ {
             Serial.println("Aro detectado na frente da trava. Aguarde a desobstrução.");
             emitirBip(1, 100);
         }
