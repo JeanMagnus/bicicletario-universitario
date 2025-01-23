@@ -7,7 +7,7 @@ Como é necessário que o usuário tem fácil acesso para desbloquear, é necess
 ### **1. Login:** 
 Usando a API solicitada junto a SINFO é possível fazer a autenticação de usuários que fazem uso do sistema SIGAA e o mesmo pode fazer login no aplicativo.
 
-![Tela 1](/images/tela-1.png)
+![Tela 1](/images/tela-inicial.png)
 
 ### **2. Lista de bicicletas e disponibilidade:** 
 Uma vez que o usuário entra no aplicativo, ele pode ver as lista de bicicletas e sua disponibilidade no bicicletário.
