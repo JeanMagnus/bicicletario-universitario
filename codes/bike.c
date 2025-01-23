@@ -16,9 +16,9 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // Coordenadas iniciais para verificar o perímetro
-float latInicial = -5.82318; // Latitude do ESP32
-float lonInicial = -35.20514; // Longitude do ESP32
-float raioPerimetro = 8; // Raio permitido (em metros)
+float latInicial = -5.925832291436816;//-5.82318; // Latitude do ESP32
+float lonInicial = -35.27635160279462;//-35.20514; // Longitude do ESP32
+float raioPerimetro = 30; // Raio permitido (em metros)
 
 // Pino do buzzer
 const int buzzerPin = 27;
@@ -26,7 +26,7 @@ const int buzzerPin = 27;
 // Variáveis de controle
 unsigned long lastReconnectAttempt = 0;
 unsigned long lastLatitudeLongitudeCheck = 0;
-float latitude, longitude; // Variáveis para armazenar coordenadas
+float latitude = 0.0, longitude = 0.0; // Variáveis para armazenar coordenadas
 
 // Função para conectar ao Wi-Fi
 void setupWiFi() {
@@ -50,16 +50,29 @@ void callback(char* topic, byte* payload, unsigned int length) {
     message += (char)payload[i];
   }
 
+  //Serial.print("Tópico recebido: ");
+  //Serial.println(topic);
+  //Serial.print("Mensagem recebida: ");
+  //Serial.println(message);
+
   if (String(topic).endsWith("longitude")) {
+    if (message.toFloat() == 0.0 && message != "0") {
+      Serial.println("Erro ao converter longitude para float.");
+      return;
+    }
     longitude = message.toFloat();
-    Serial.print("Longitude recebida: ");
-    Serial.println(longitude);
+    Serial.print("Longitude atualizada: ");
+    Serial.println(longitude, 6);
   }
 
   if (String(topic).endsWith("latitude")) {
+    if (message.toFloat() == 0.0 && message != "0") {
+      Serial.println("Erro ao converter latitude para float.");
+      return;
+    }
     latitude = message.toFloat();
-    Serial.print("Latitude recebida: ");
-    Serial.println(latitude);
+    Serial.print("Latitude atualizada: ");
+    Serial.println(latitude, 6);
   }
 }
 
@@ -112,6 +125,11 @@ float getDistance(float flat1, float flon1, float flat2, float flon2) {
 
 // Função para verificar se o ESP32 saiu do perímetro
 void checkPerimeter() {
+  if (latitude == 0.0 || longitude == 0.0) {
+    Serial.println("Coordenadas inválidas para verificar o perímetro.");
+    return;
+  }
+
   float distance = getDistance(latitude, longitude, latInicial, lonInicial);
   Serial.print("Distância atual: ");
   Serial.println(distance);
@@ -152,8 +170,8 @@ void loop() {
     client.loop();
   }
 
-  // Verifica o perímetro a cada 5 segundos
-  if (millis() - lastLatitudeLongitudeCheck >= 5000) {
+  // Verifica o perímetro a cada 60 segundos
+  if (millis() - lastLatitudeLongitudeCheck >= 15000) {
     checkPerimeter();
     lastLatitudeLongitudeCheck = millis();
   }
