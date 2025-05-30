@@ -18,6 +18,7 @@
 
 ## **Documentos do projeto**
 - [Apresentação de Sistemas Embarcados](/docs/Bicicletario-Universitario-Projeto-de-Sistemas-Embarcados.pdf)
+- [Apresentação final do sistema (IoT)](https://www.canva.com/design/DAGdl63WHCU/qx2l47pAY6Rwcjr3kKUz1g/edit?utm_content=DAGdl63WHCU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
 - [Artigo escrito](/docs/Bicicletrio_Universitrio__Uma_Soluo_Inovadora_para_os_Desafios_de_Mobilidade%20(1).pdf) [EM ANDAMENTO]
 
 ## **Descrição do Projeto**
